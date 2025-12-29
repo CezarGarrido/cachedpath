@@ -1,0 +1,37 @@
+# Binários compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretórios de build
+/bin/
+/pkg/
+/_obj/
+/_test/
+
+# Arquivos de dependências
+/vendor/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache de testes
+*.test
+*.prof
+
+# Arquivos de cache da aplicação
+.cache/
+cached_path/
+
+# Arquivos temporários
+*.tmp
+*.log
